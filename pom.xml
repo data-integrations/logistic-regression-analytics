@@ -21,7 +21,7 @@
   <groupId>co.cask.hydrator</groupId>
   <artifactId>logistic-regression-analytics-plugin</artifactId>
   <modelVersion>4.0.0</modelVersion>
-  <version>1.6.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <licenses>
     <license>
