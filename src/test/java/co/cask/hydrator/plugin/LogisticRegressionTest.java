@@ -42,6 +42,7 @@ import com.google.common.collect.ImmutableMap;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.ClassRule;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -89,6 +90,7 @@ public class LogisticRegressionTest extends HydratorTestBase {
                       DATAPIPELINE_ARTIFACT_ID, LogisticRegressionTrainer.class, LogisticRegressionClassifier.class);
   }
 
+  @Ignore
   @Test
   public void testSparkSinkAndCompute() throws Exception {
     // use the SparkSink to train a model using Logistic Regression
