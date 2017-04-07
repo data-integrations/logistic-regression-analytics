@@ -90,6 +90,7 @@ public class LogisticRegressionTest extends HydratorTestBase {
                       DATAPIPELINE_ARTIFACT_ID, LogisticRegressionTrainer.class, LogisticRegressionClassifier.class);
   }
 
+  @Ignore
   @Test
   public void testSparkSinkAndCompute() throws Exception {
     // use the SparkSink to train a model using Logistic Regression
